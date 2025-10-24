@@ -1,0 +1,70 @@
+/* Reset default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #d3c6c4, #d4a8bc);
+    height: 100%;
+}
+
+/* Center container */
+.container {
+    background-color: white;
+    width: 350px;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    margin: 80px auto;
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Form inputs */
+input[type="text"], input[type="password"] {
+    width: 80%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Submit button */
+.sub {
+    width: 85%;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #dd2476;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sub:hover {
+    background-color: #ff512f;
+}
+
+/* Signup link */
+.signup-link {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.signup-link a {
+    text-decoration: none;
+    color: #dd2476;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.signup-link a:hover {
+    color: #ff512f;
+}
