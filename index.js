@@ -50,7 +50,7 @@ app.post("/signup", async (req, res) => {
     const otp = otpGenerator.generate(6, { upperCase: false, specialChars: false, alphabets: false });
     otpStore[email] = { otp, name, password }; 
     const mailOptions = {
-      from: `"ImageSearchEngine" <sayandeepmajee@gmail.com>`,
+      from: `"ImageSearchEngine" <gmail_id>`,
       to: email,
       subject: "Your OTP for SoundRealm Signup",
       text: `Hello ${name},\n\nYour OTP for signing up is: ${otp}\n\nDo not share this OTP with anyone.\n\nThanks!`,
